@@ -1,0 +1,22 @@
+#cartoonsList{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#cartoonsList div{
+    width: 30%;
+    height: 360px;
+    background-color: aqua;
+    margin-top: 60px;
+}
+@media (max-width: 550px) {
+    #cartoonsList div{
+        width: 368px;
+        height: 560px;
+        background-color: red;
+        margin-top: 60px;
+    }
+}
