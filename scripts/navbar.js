@@ -13,4 +13,7 @@ function logar(){
     var userName = prompt('Please enter your name:');
     const userNameCampo = document.getElementById('nome-navbar');
     userNameCampo.innerHTML =  `<p id="nome-na-nav">${userName}</p>`
+    if (userName === null){
+        userNameCampo.innerHTML =  `<p id="nome-na-nav"></p>`
+    }
 }
