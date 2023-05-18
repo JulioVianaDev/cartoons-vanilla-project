@@ -6,9 +6,21 @@
     justify-content: space-around;
     align-items: center;
 }
+.imagensCard{
+    width: 80%;
+    border-radius: 8px;
+    height:240px
+}
+
 #cartoonsList div{
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
     width: 30%;
-    height: 360px;
+    height: 460px;
     background-color: aqua;
     margin-top: 60px;
 }
