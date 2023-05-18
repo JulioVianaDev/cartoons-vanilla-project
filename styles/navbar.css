@@ -15,8 +15,6 @@
     width: 100vw;
 }
 #navbar-image{
-    position: absolute;
-    right: 50px;
     border-radius: 50%;
     width: 48px;
 }
@@ -25,7 +23,20 @@
     font-size: 1.8rem;
     text-decoration: none;
 }
-
+#nome-na-nav{
+    color: white;
+    font-size: 1.8rem;
+    margin-right: 4px;
+}
+#info-navbar{
+    position: fixed;
+    right: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
 @media (max-width: 600px) {
     #navbar{
         flex-direction: row-reverse;

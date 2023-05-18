@@ -25,3 +25,10 @@ function handleError(img) {
     img.src = './images/erroImage.png';
     img.onerror = null;  // Remove the onerror event to prevent an infinite loop
 }
+// pedir pro usuario digitar o nome
+// var userInput = prompt('Please enter your name:');
+// if (userInput) {
+//   alert('Hello, ' + userInput + '!'); // Display a greeting using the entered name
+// } else {
+//   alert('No name entered.'); // Display a message if no name is entered
+// }

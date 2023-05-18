@@ -4,5 +4,13 @@ navbar.innerHTML= `
     <a class="links-navbar" href="./index.html">Home</a>
     <a class="links-navbar" href="./cartoons.html">Cartoons</a>
     </div>
-    <img src="./images/navbar/logo.jpeg" id="navbar-image">
+    <div id="info-navbar">
+        <div id="nome-navbar"></div>
+        <img onclick="logar()" src="./images/navbar/logo.jpeg" id="navbar-image">
+    </div>
 `
+function logar(){
+    var userName = prompt('Please enter your name:');
+    const userNameCampo = document.getElementById('nome-navbar');
+    userNameCampo.innerHTML =  `<p id="nome-na-nav">${userName}</p>`
+}
